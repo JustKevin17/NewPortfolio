@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  .nav-btn {
+
+  }
+}
+
+.btn-primary {
+  background-color: #1d809f;
+  color: #fff;
+  margin-top: 2.5rem;
+  padding: 1.4rem 2.5rem;
+  border-radius: .25rem;
+}
+
+.btn-secondary {
+  background-color: #343a40;
+  color: #fff;
+  padding: 1.4rem 2.5rem;
+  border-radius: .25rem;
+}
+
+.btn-tertiary {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 1.4rem 2.5rem;
+  border-radius: .25rem;
+}
+
+a {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/*Pages*/
+.p1 {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #212529;
+  h1 {
+    font-size: 5.5rem;
+  }
+  p {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+}
+
+.p2 {
+  width: 100%;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #212529;
+  padding: 7rem 0;
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    margin: .5rem 0 3rem 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+}
+
+.p3 {
+  width: 100%;
+  background-color: #1d809f;
+  padding: 7rem 0;
+
+  .p3-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h2 {
+      font-size: 1rem;
+      color: #ecb807;
+    }
+    h3 {
+      font-size: 3rem;
+      color: #fff;
+    }
+    .p3-icons {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 2.5rem;
+      .p3-icon {
+        text-align: center;
+        font-size: 4rem;
+        .circle {
+          width: 7.5rem;
+          height: 7.5rem;
+          background-color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+          color: #1d809f;
+
+          .fa-html5, .fa-js, .fa-css3-alt {
+
+          }
+        }
+        p {
+          font-size: 1.5rem;
+          font-weight: 700;
+          color: #fff;
+          margin-top: 1rem;
+        }
+      }
+
+    }
+  }
+}
+
+.p4 {
+  width: 100%;
+  height: 125vh;
+  background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),url(img/bg-callout.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #212529;
+  h2 {
+    width: 30rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+}
+
